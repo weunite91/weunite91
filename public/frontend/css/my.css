@@ -1,0 +1,88 @@
+#loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0) url('../image/loader.gif') no-repeat center center;
+    background-size: 40px 40px;
+    z-index: 10000;
+}
+
+#divoverlayspinner {
+    position: fixed;
+    display:none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#divspinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+
+#pagination ul li{
+    display: none;
+}
+
+div#pagination ul.pagination {
+    float: right;
+}
+
+#pagination ul li:first-child{
+    display: block;
+    float: left !important;
+}
+
+#pagination ul li:last-child{
+    display: block;
+    float: left ;
+}
+.page-link{
+    color: #666;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #FFEB3B;
+    background-color: #FFEB3B;
+    box-shadow: 0px 0px 10px 0px #EEE;
+    margin-right: 3px;
+}
+
+#divoverlayspinner {
+    position: fixed;
+    display:none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#divspinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
